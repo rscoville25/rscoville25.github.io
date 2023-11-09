@@ -1,6 +1,9 @@
 .header {
     display: flex;
     background-color: darkblue;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    padding-left: 1.25em;
+    padding-right: 1.25em;
 }
 
 .header-title {
@@ -8,8 +11,16 @@
     font-style: italic;
     font-weight: lighter;
     color: white;
-    text-shadow: black;
     font-size: 12px;
+    padding-right: 24px;
+}
+
+.header-music {
+    font-family: 'Courier New';
+    color: white;
+    border: thin solid  gray;
+    box-shadow: inset;
+    background-color: black;
 }
 
 .header-dark {
