@@ -1,4 +1,5 @@
 .header {
+    display: flex;
     background-color: darkblue;
 }
 
@@ -9,4 +10,12 @@
     color: white;
     text-shadow: black;
     font-size: 12px;
+}
+
+.header-dark {
+    margin-left: auto;
+    border: none;
+    box-shadow: inset;
+    cursor: pointer;
+
 }

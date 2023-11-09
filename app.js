@@ -6,7 +6,7 @@ function darkMode() {
         document.body.style.backgroundColor = 'white'
         document.body.style.color = 'black'
         lights == true
-    } else {
+    } else if(lights) {
         document.body.style.backgroundColor = 'darkgrey'
         document.body.style.color = 'white'
         lights == false
