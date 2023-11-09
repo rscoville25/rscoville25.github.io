@@ -1,7 +1,12 @@
-h1 { 
-    font-family: cursive;
-}
-
 .header {
     background-color: darkblue;
+}
+
+.header-title {
+    font-family: 'Courier New';
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    text-shadow: black;
+    font-size: 12px;
 }
