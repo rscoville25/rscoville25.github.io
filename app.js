@@ -1,3 +1,5 @@
+import './index.css'
+
 const darkButton = document.getElementById('dark')
 darkButton.addEventListener('click', darkMode)
 let lights = true
